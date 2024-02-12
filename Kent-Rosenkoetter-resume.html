@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="en-US">
+    <head>
+        <title>Kent Rosenkoetter&#8217;s resum&eacute;</title>
+        <style>
+@page { size: 8.5in 11in; margin: 1in 1.25in; }
+@media print {
+  body { font-size: 12pt; }
+  h1 { font-size: 16pt; }
+  .name { font-size: 22pt; }
+  abbr, acronym { text-decoration: none; font-style: normal; border: none; }
+  :link, :visited { text-decoration: none; color: black; }
+  .noprint { display: none; }
+  h1, h2, h3, h4, h5, h6 { page-break-after: avoid; }
+  div, p { page-break-inside: avoid; }
+  h1.breakbefore { page-break-before: always; }
+}
+@media screen {
+  body { font-size: medium; }
+  .name { font-size: xx-large; }
+  .email { font-size: large; }
+  h1 { font-size: x-large; }
+  .note { font-size: small; text-align: right; }
+  .note:before { content: "Note: "; }
+}
+:link, :visited {
+  text-decoration: none;
+}
+
+/*p { border: thin red solid; }
+div { border: thin green solid; }
+li { border: thin blue solid; }
+h1, h2, h3, h4, h5, h6 { border: thin purple solid; }*/
+
+p, ul, li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.name {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.email {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.addr {
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+}
+h1 {
+  font-weight: normal;
+  text-decoration: underline;
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+}
+.edu li {
+  text-indent: -2em;
+  padding-left: 4em;
+  margin-top: 1ex;
+}
+.skill li {
+  margin-top: 0.5ex;
+  list-style-type: disc;
+  margin-left: 2em;
+}
+.work li {
+  margin-top: 1ex;
+  margin-left: 2em;
+  list-style-type: none;
+  text-indent: -2em;
+  padding-left: 2em;
+}
+.school {
+  font-weight: bold;
+  font-size: larger;
+}
+.jobtitle {
+  font-weight: bold;
+  font-size: larger;
+}
+.employer {
+  font-weight: bold;
+}
+.date {
+  font-weight: normal;
+  font-style: italic;
+}
+        </style>
+    </head>
+    <body>
+        <p class="name">Kent Rosenkoetter</p>
+        <p class="email"><a href="mailto:silnith@gmail.com">silnith@gmail.com</a></p>
+        <p class="addr" style="margin: 0pt; padding: 0pt; text-align: center;">Chicago, <abbr title="Illinois">IL</abbr> &nbsp;60606</p>
+
+        <h1>Education</h1>
+        <ul class="edu">
+            <li>
+                <a href="https://www.rose-hulman.edu/"><span class="school">Rose-Hulman Institute of Technology</span></a>
+                <br>
+                <abbr title="Bachelor of Science">B.S.</abbr> in Computer Science, 2001
+            </li>
+            <li>
+                <a href="http://cs.unc.edu/"><span class="school">University of North Carolina at Chapel Hill</span></a>
+                <br>
+                Coursework toward <abbr title="Doctor of Philosophy">Ph.D.</abbr> in Computer Science, 2001&#8211;2003
+            </li>
+        </ul>
+
+        <h1>Skills</h1>
+        <ul class="skill">
+            <li>Proficient with a wide variety of computer languages from C/C++/Java to assembly.</li>
+            <li>Specializes in using Java and the Spring Framework to build or refactor back-end services.</li>
+            <li>Penchant for seeking strict language adherence, particularly with the C++ <abbr title="Standard Template Library">STL</abbr>.</li>
+            <li>Experienced with development environments including <abbr title="GNU Compiler Collection">GCC</abbr>/make, <abbr title="Java Development Kit">JDK</abbr>/ant, <a href="https://maven.apache.org/">Maven</a>, and Eclipse.</li>
+            <li>Proficient on Microsoft Windows and Unix-style systems (including Mac OS X).</li>
+            <li>Experienced in administering scores of interdependent heterogeneous server fleets in enterprise environments.</li>
+            <li>Experienced with the design and maintenance of high-availability and high-throughput services.</li>
+            <li>Experienced with realtime on-demand debugging of high-availability and high-throughput services.</li>
+            <li>Experienced with <abbr title="Structured Query Language">SQL</abbr> and JDBC, prefers to hand-craft select and update statements rather than rely on <abbr title="Object-Relational Mapping">ORM</abbr> frameworks. Always uses bind variables.</li>
+            <li>Experienced with Servlet containers such as <a href="https://tomcat.apache.org/">Tomcat</a>.</li>
+            <li>Experienced with <a href="https://www.osgi.org/developer/">OSGi</a>.</li>
+            <li>Experienced with dependency injection tools such as <a href="https://jakarta.ee/specifications/cdi/2.0/">CDI</a>, <a href="https://spring.io/">Spring</a>, and <a href="https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection" style="font-family: monospace">Microsoft.Extensions.DependencyInjection</a>.</li>
+            <li>Experienced with cloud tools such as <a href="https://kubernetes.io/">Kubernetes</a>, <a href="https://cloud.google.com/">Google Cloud</a>, and <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a>.
+            <li>Experienced in assisting other programmers of varying skill with simple or subtle debugging.</li>
+        </ul>
+
+        <h1 class="breakbefore">Work Experience</h1>
+
+        <ul class="work">
+            <li><div><span class="jobtitle">Software Development Contractor</span>
+            &#8212;
+            <span class="employer"><a href="">Nordstrom</a> via <a href="">Insight Global</a></span>
+            <br>
+            Chicago, <abbr title="Illinois">IL</abbr>, <span class="date">2023</span>
+            <br>
+            Rewrote .NET REST services in Java supporting the credit rewards campaigns.
+            Developed new Java services deployed into Kubernetes using <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html">Aurora</a>, <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a>, and <a href="https://kafka.apache.org/documentation/">Kafka</a>.
+            Defined and deployed AWS resources using <a href="https://developer.hashicorp.com/terraform/language">Terraform</a>.
+            Added several improvements to the company-wide standardized build pipeline.
+            Identified and provided fixes for several mistakes in the published Engineering Standards.
+            </div></li>
+
+            <li><div><span class="jobtitle">Software Development Contractor</span>
+            &#8212;
+            <span class="employer"><a href="https://www.343industries.com/">343 Industries</a> via <a href="https://www.randstadusa.com/">Randstad</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2022</span>
+            <br>
+            Developed .NET gRPC services to manage partial-terabyte Perforce clients.
+            Pioneered using NuGet for <a href="https://docs.microsoft.com/en-us/nuget/guides/native-packages">native C++ libraries</a> to reduce the size of said Perforce clients.
+            </div></li>
+
+            <li><div><span class="jobtitle">Senior Backend Software Engineer</span>
+            &#8212;
+            <span class="employer"><a href="https://www.verygoodsecurity.com">Very Good Security</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2020&#8211;2021</span>
+            <br>
+            Wrote a proxy transforming pipeline using Spring Integration to unify processing of HTTPS, SFTP, FTPS, and other pluggable protocols using scriptable routing and computation.
+            </div></li>
+
+            <li><div><span class="jobtitle">Senior Software Engineer</span>
+            &#8212;
+            <span class="employer"><a href="https://www.starbucks.com">Starbucks</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2018&#8211;2020</span>
+            <br>
+            Migrated .NET Framework services to .NET Core, wrote and deployed services from scratch, published over a dozen internal libraries for re-use across the organization, replaced custom auth system with OpenID Connect.
+            </div></li>
+
+            <li><div><span class="jobtitle">Senior Software Developer</span>
+            &#8212;
+            <span class="employer"><a href="https://www.multiscalehn.com/">MultiScale Health Networks</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2016&#8211;2018</span>
+            <br>
+            Automated complicated multi-stage data pipelines using Kubernetes so they could run on Google Cloud or Microsoft Azure.
+            Imported all C++ code into a new <a href="https://conan.io/">Conan</a>&ndash;based build system to handle dependencies.
+            Wrote, tested, hardened, and deployed to production a REST service built with <a href="https://projects.spring.io/spring-boot/">Spring Boot</a> and <a href="https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services">JAX-RS</a> in two weeks, using <a href="https://auth0.com/">Auth0</a> for <abbr title="authentication, authorization, and auditing">AAA</a>.
+            </div></li>
+
+            <li><div><span class="jobtitle">Software Development Contractor</span>
+            &#8212;
+            <span class="employer"><a href="http://www.staples.com/">Staples</a> via <a href="https://www.harveynash.com/usa/">Harvey Nash</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2014&#8211;2016</span>
+            <br>
+            Integrated the internal search feature with multiple third-party search providers using the Spring Framework.
+            Separated a monolithic Java service into separate modules consumed as versioned libraries.
+            Added continuous integration and static analysis tools.
+            Implemented <a href="http://semver.org/">semantic versioning</a>.
+            </div></li>
+
+            <li><div><span class="jobtitle">Software Development Engineer II</span>
+            &#8212;
+            <span class="employer"><a href="https://www.microsoft.com/">Microsoft</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2013</span>
+            <br>
+            Hired to develop and maintain Sharepoint Online.
+            Started a long-term project to improve and extend the unit testing framework used, both for C# and PowerShell code.
+            Demonstrated a new <a href="https://maven.apache.org/">dependency management system</a> to the build tools team.
+            </div></li>
+
+            <li><div><span class="jobtitle">Software Developer</span>
+            &#8212;
+            <span class="employer"><a href="http://www.doubledowninteractive.com/">Double Down Interactive</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2012</span>
+            <br>
+            Worked with a legacy Java codebase using a third-party chat service that embedded an OSGi container for the business logic.
+            Rewrote the Maven <abbr title="project object model">POM</abbr> files to properly express dependencies on OSGi bundles and to enable version management, both in the Maven build and in the OSGi runtime.
+            Implemented integration tests based on <a href="https://ops4j1.jira.com/wiki/display/PAXEXAM4">Pax Exam</a> for OSGi bundles' public interfaces.
+            Became proficient in the use of Guice for dependency injection.
+            </div></li>
+
+            <li><div><span class="jobtitle">Software Developer</span>
+            &#8212;
+            <span class="employer"><a href="http://www.cequint.com/">Cequint.com</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2010&#8211;2012</span>
+            <br>
+            Implemented, debugged, and refactored multiple Java services for the core product.
+            Assisted Operations with debugging support, provided realtime monitoring and configuration tools using JMX.
+            Became proficient in the use of Spring for dependency injection.
+            Organized and maintained the code dependency tree, wrote a build system composed of modular Ant script and using <a href="http://ant.apache.org/ivy/">Ivy</a> for dependency management.
+            Implemented a Maven-compatible publish system.
+            Reduced the runtime memory footprint of one service from 300&nbsp;<abbr title="megabytes">MB</abbr> to 80&nbsp;<abbr title="megabytes">MB</abbr>.
+            Increased the unit test coverage of the same service from 5% to over 70%, included static analysis as part of the continuous build for all code modules.
+            </div></li>
+
+            <li><div><span class="jobtitle">Software Developer</span>
+            &#8212;
+            <span class="employer"><a href="https://www.amazon.com/">Amazon.com</a></span>
+            <br>
+            Seattle, <abbr title="Washington">WA</abbr>, <span class="date">2005&#8211;2010</span>
+            <br>
+            Designed, deployed, and maintained multiple Java and C++ Tier-1 services (99.99% uptime) inside the Ordering Pipeline.
+            Maintained dozens of server fleets spanning up to hundreds of hosts running behind multiple hardware load balancers.
+            Participated in a pager rotation duty.
+            Engaged in operational duties requiring interoperability and support between scores of services spread across multiple organizational units and departments.
+            Developed new software and tools to support existing functionality and new projects as needed.
+            Replaced a custom-written threading library with the <code>java.util.concurrency</code> toolkit.
+            Rewrote the <abbr title="data access layer">DAL</abbr> for a 200&nbsp;<abbr title="millisecond">ms</abbr> latency service to directly query Oracle instead of use a custom <abbr title="Berkeley Database">BDB</abbr>.
+            </div></li>
+
+            <li><div><span class="jobtitle">Software Developer</span>
+            &#8212;
+            <span class="employer"><a href="https://www.ptc.com/"><abbr title="Parametric Technology Corporation">PTC</abbr></a></span>
+            <br>
+            Arden Hills, <abbr title="Minnesota">MN</abbr>, <span class="date">2005</span>
+            <br>
+            Maintenance and feature work for enterprise-scale <abbr title="Product Lifecycle Management">PLM</abbr> software.
+            </div></li>
+
+            <li><div><span class="jobtitle">Contract Developer</span>
+            &#8212;
+            <span class="employer"><a href="http://www.stagelogic.com/">Stage Logic, Inc.</a></span>
+            <br>
+            Terre Haute, <abbr title="Indiana">IN</abbr>, <span class="date">summer 2002</span>
+            <br>
+            Developed Java GUI for distributed theater software.
+            </div></li>
+        </ul>
+
+        <p class="note noprint">This page is designed to be printed as-is.</p>
+    </body>
+</html>
